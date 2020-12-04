@@ -81,7 +81,7 @@ btnHold.addEventListener('click', function () {
       totalScores[activePlayer];
 
     // check if total scores < 100
-    if (totalScores[activePlayer] < 20) switchPlayer();
+    if (totalScores[activePlayer] < 100) switchPlayer();
     else {
       // add winner theme
       document
